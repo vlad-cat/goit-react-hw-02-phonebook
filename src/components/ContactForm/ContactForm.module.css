@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 16px;
+  max-width: 480px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.button {
+  padding: 5px 10px;
+  margin: 20px auto 0 0;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: lightskyblue;
+}
+
+.inputField {
+  border: 1px solid gray;
+  max-width: 300px;
+  font-size: 18px;
+}

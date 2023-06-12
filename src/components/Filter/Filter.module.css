@@ -1,0 +1,11 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inputField {
+  border: 1px solid gray;
+  max-width: 300px;
+  font-size: 18px;
+}
